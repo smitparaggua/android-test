@@ -2,6 +2,7 @@ package com.example.notegen;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.ImageView;
 
 /**
  * Created with IntelliJ IDEA.
@@ -15,6 +16,11 @@ public class ViewNoteActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
 //        super.onCreate(savedInstanceState);
 //        setContentView(R.layout.activity_create_note);
+
+//        Get pointer to the drawable image to show
+        int nextNoteImage = getIntent().getExtras().getInt("nextNote");
+//        Grab the view that we want to set
+        ImageView viewNoteImageView = (ImageView) findViewById(R.id.meme_image);
 
     }
 }
