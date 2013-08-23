@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SpinnersExercise</string>
+    <string name="spinner_label">Spinner Label</string>
+    <string-array name="spinner_entries">
+        <item>@string/red_label</item>
+        <item>@string/blue_label</item>
+        <item>@string/green_label</item>
+        <item>@string/yellow_label</item>
+    </string-array>
+    <string name="red_label">Red</string>
+    <string name="blue_label">Blue</string>
+    <string name="green_label">Green</string>
+    <string name="yellow_label">Yellow</string>
+</resources>
