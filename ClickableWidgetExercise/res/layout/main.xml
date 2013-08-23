@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <ImageButton
+            android:id="@+id/img_button_blue"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/tag_blue"
+            />
+
+        <ImageButton
+            android:id="@+id/img_button_red"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/tag_red"
+            />
+    </LinearLayout>
+
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/radio_red"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/radio_red"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_blue"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/radio_blue"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_yellow"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/radio_yellow"
+            />
+    </RadioGroup>
+
+    <ToggleButton
+        android:id="@+id/toggle_red"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textOn="@string/radio_red"
+        android:textOff="@string/toggle_red_off"
+        />
+
+    <ToggleButton
+        android:id="@+id/toggle_blue"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textOn="@string/radio_blue"
+        android:textOff="@string/toggle_blue_off"
+        />
+
+    <ToggleButton
+        android:id="@+id/toggle_yellow"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textOn="@string/radio_red"
+        android:textOff="@string/toggle_yellow_off"
+        />
+
+    <TextView
+        android:id="@+id/panel"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+</LinearLayout>
+

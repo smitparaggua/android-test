@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ClickableWidgetExercise</string>
+    <string name="radio_red">Red</string>
+    <string name="radio_blue">Blue</string>
+    <string name="radio_yellow">Yellow</string>
+    <string name="toggle_red_off">Not Red</string>
+    <string name="toggle_blue_off">Not Blue</string>
+    <string name="toggle_yellow_off">Not Yellow</string>
+</resources>
