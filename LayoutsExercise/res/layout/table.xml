@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="2">
+
+    <include layout="@layout/activity_choices"/>
+
+    <TableRow
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:text="@string/red_label"
+            android:textColor="@color/red"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:text="@string/green_label"
+            android:textColor="@color/green"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:text="@string/blue_label"
+            android:textColor="@color/blue"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_span="3"
+            android:background="@color/green"/>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:layout_column="2"
+            android:text="@string/clear_label"/>
+    </TableRow>
+
+</TableLayout>
